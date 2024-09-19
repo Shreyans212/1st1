@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.banner {
+    
+    background-size: cover;
+    background-position: left;
+    height: 335px;
+ 
+}
+
+.info-section {
+    background-color: #f2a268;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+    height: 219px;
+    text-align: center;
+}
+
+.contact-info, .location, .virtual-tour {
+    width: 30%;
+}
+
+.contact-info h3, .location h3, .virtual-tour h3 {
+    font-size: 1.5em;
+    
+}
+
+.contact-info p, .location p {
+    margin: 5px 0;
+}
+
+.map-icon img {
+    width: 50px;
+    height: auto;
+}
+
+.virtual-tour img {
+    width: 100%;
+    height: auto;
+}
+
+.location a {
+    color: #000;
+    text-decoration: none;
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
